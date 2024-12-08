@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <title>Christian Laranjeira - Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Christian Laranjeira</h1>
+    <p>A Student at the University of Adelaide</p>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="profile-photo">
+      <img src="profile.png" alt="Profile Photo">
+    </div>
+
+    <section id="about" class="about">
+      <h2 class="section-title">About Me</h2>
+      <p>Hi, I'm Chris, a 3rd year student studying Bachelor of Information Technology—majoring in Cybersecurity.</p>
+    </section>
+
+    <section id="skills" class="skills">
+      <table>
+        <thead>
+          <tr>
+            <th>Programming Languages</th>
+            <th>Skills</th>
+            <th>Experience</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>C/C++</td>
+            <td>MySQL</td>
+            <td>Linux System Administration</td>
+          </tr>
+          <tr>
+            <td>Go</td>
+            <td>Git</td>
+            <td>Docker</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Docker</td>
+            <td>Embedded Development</td>
+          </tr>
+          <tr>
+            <td>Rust</td>
+            <td>Data Structures & Algorithms</td>
+            <td>PMBOK Methodology</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="section-title">Projects</h2>
+      <ul>
+        <li onclick="window.open('https://github.com/laranc/gameoflife', '_blank')">
+          <h3>Game of Life</h3>
+          <p>An implementation of the cellular automata simulation, Conway's Game of Life, written in C.</p>
+        </li>
+        <li onclick="window.open('https://github.com/laranc/emuNES', '_blank')">
+          <h3>emuNES</h3>
+          <p>A work in progress Nintendo Entertainment System emulator written in Go using my custom game engine.</p>
+        </li>
+        <li onclick="window.open('https://github.com/laranc/dustbowl', '_blank')">
+          <h3>DustBowl</h3>
+          <p>A falling sand 2D physics simulator written in C.</p>
+        </li>
+        <li onclick="window.open('https://github.com/laranc/GoFractal', '_blank')">
+          <h3>GoFractal</h3>
+          <p>A mandelbrot fractal generator written in Go using my custom game engine.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2 class="section-title">Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto://claranjeira@proton.me">claranjeira@proton.me</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/christian-laranjeira-593690338"
+            target="_blank">linkedin.com/in/christian-laranjeira-593690338/</a></li>
+        <li>GitHub: <a href="https://github.com/laranc" target="_blank">github.com/laranc</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2024 Christian James Laranjeira
+  </footer>
+
+</body>
+
+</html>
